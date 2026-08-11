@@ -1,0 +1,395 @@
+{
+  "featured": {
+    "id": "house-of-cards",
+    "title": "House of Cards",
+    "poster": "/images/capa-house.jpg",
+    "year": 2013,
+    "rating": "16",
+    "genres": ["Drama", "Político"],
+    "match": 97,
+    "description": "Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.",
+    "type": "series",
+    "duration": "6 Temporadas"
+  },
+  "rows": [
+    {
+      "id": "top10",
+      "title": "Top 10 hoje",
+      "variant": "top10",
+      "items": [
+        {
+          "id": "stranger-things",
+          "title": "Stranger Things",
+          "poster": "/images/mini1.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Ficção", "Suspense"],
+          "match": 96,
+          "description": "Quando um garoto desaparece, uma pequena cidade descobre um mistério envolvendo experimentos secretos e um mundo sobrenatural.",
+          "type": "series",
+          "duration": "4 Temporadas"
+        },
+        {
+          "id": "the-witcher",
+          "title": "The Witcher",
+          "poster": "/images/mini2.jpg",
+          "year": 2021,
+          "rating": "16",
+          "genres": ["Fantasia", "Ação"],
+          "match": 92,
+          "description": "Geralt de Rivia, um caçador de monstros solitário, luta para encontrar seu lugar em um mundo onde as pessoas são mais perversas que as bestas.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "la-casa-de-papel",
+          "title": "La Casa de Papel",
+          "poster": "/images/mini3.jpg",
+          "year": 2019,
+          "rating": "16",
+          "genres": ["Ação", "Crime"],
+          "match": 94,
+          "description": "Um homem misterioso conhecido como Professor planeja o maior assalto da história: imprimir dinheiro na Casa da Moeda da Espanha.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "dark",
+          "title": "Dark",
+          "poster": "/images/mini4.jpg",
+          "year": 2020,
+          "rating": "16",
+          "genres": ["Ficção", "Mistério"],
+          "match": 95,
+          "description": "Quatro famílias iniciam uma busca desesperada por respostas quando uma criança desaparece e segredos de um universo temporal são revelados.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "squid-game",
+          "title": "Squid Game",
+          "poster": "/images/mini5.jpg",
+          "year": 2021,
+          "rating": "16",
+          "genres": ["Suspense", "Drama"],
+          "match": 98,
+          "description": "Centenas de jogadores em dificuldades financeiras aceitam um convite para disputar jogos infantis com prêmios tentadores e apostas mortais.",
+          "type": "series",
+          "duration": "1 Temporada"
+        },
+        {
+          "id": "black-mirror",
+          "title": "Black Mirror",
+          "poster": "/images/mini6.jpg",
+          "year": 2019,
+          "rating": "16",
+          "genres": ["Ficção", "Drama"],
+          "match": 91,
+          "description": "Uma antologia de ficção científica que explora um futuro próximo distorcido, onde as maiores inovações em tecnologia humano têm consequências obscuras.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "the-umbrella-academy",
+          "title": "The Umbrella Academy",
+          "poster": "/images/mini7.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Ficção", "Ação"],
+          "match": 89,
+          "description": "Adotados juntos por um bilionário excêntrico, irmãos com poderes extraordinários se reencontram para solucionar o mistério da morte do pai.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "breaking-bad",
+          "title": "Breaking Bad",
+          "poster": "/images/mini8.jpg",
+          "year": 2013,
+          "rating": "18",
+          "genres": ["Crime", "Drama"],
+          "match": 97,
+          "description": "Um professor de química diagnosticado com câncer de pulmão passa a fabricar metanfetamina para garantir o futuro financeiro de sua família.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "peaky-blinders",
+          "title": "Peaky Blinders",
+          "poster": "/images/mini9.jpg",
+          "year": 2022,
+          "rating": "16",
+          "genres": ["Crime", "Drama"],
+          "match": 93,
+          "description": "Uma gangue de Birmingham, na Inglaterra pós-guerra, comanda a cidade com poder, violência e estilo na época da Grande Depressão.",
+          "type": "series",
+          "duration": "6 Temporadas"
+        },
+        {
+          "id": "wednesday",
+          "title": "Wednesday",
+          "poster": "/images/mini10.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Fantasia", "Comédia"],
+          "match": 90,
+          "description": "Wednesday Addams tenta dominar suas habilidades psíquicas em Nevermore Academy, enquanto investiga uma série de assassinatos sobrenaturais.",
+          "type": "series",
+          "duration": "1 Temporada"
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "Tendências agora",
+      "items": [
+        {
+          "id": "the-crown",
+          "title": "The Crown",
+          "poster": "/images/mini1.jpg",
+          "year": 2023,
+          "rating": "16",
+          "genres": ["Drama", "Histórico"],
+          "match": 94,
+          "description": "A vida pública e privada da rainha Elizabeth II e da família real britânica ao longo das décadas.",
+          "type": "series",
+          "duration": "6 Temporadas"
+        },
+        {
+          "id": "ozark",
+          "title": "Ozark",
+          "poster": "/images/mini2.jpg",
+          "year": 2022,
+          "rating": "18",
+          "genres": ["Crime", "Suspense"],
+          "match": 92,
+          "description": "Um consultor financeiro muda a família para a região de Ozarks e precisa lavar dinheiro para um cartel de drogas.",
+          "type": "series",
+          "duration": "4 Temporadas"
+        },
+        {
+          "id": "narcos",
+          "title": "Narcos",
+          "poster": "/images/mini3.jpg",
+          "year": 2017,
+          "rating": "18",
+          "genres": ["Crime", "Drama"],
+          "match": 96,
+          "description": "A história real da ascensão e queda do cartel de Pablo Escobar e a caçada dos agentes da DEA.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "better-call-saul",
+          "title": "Better Call Saul",
+          "poster": "/images/mini4.jpg",
+          "year": 2022,
+          "rating": "16",
+          "genres": ["Crime", "Drama"],
+          "match": 95,
+          "description": "Antes de ser o advogado de Saul Goodman, Jimmy McGill era um homem simples tentando fazer a coisa certa.",
+          "type": "series",
+          "duration": "6 Temporadas"
+        },
+        {
+          "id": "the-crown-2",
+          "title": "The Queen's Gambit",
+          "poster": "/images/mini5.jpg",
+          "year": 2020,
+          "rating": "14",
+          "genres": ["Drama"],
+          "match": 97,
+          "description": "Uma jovem prodígio do xadrez luta contra o vício e busca se tornar a melhor enxadrista do mundo.",
+          "type": "series",
+          "duration": "1 Temporada"
+        },
+        {
+          "id": "invasion",
+          "title": "Manifest",
+          "poster": "/images/mini6.jpg",
+          "year": 2021,
+          "rating": "14",
+          "genres": ["Ficção", "Mistério"],
+          "match": 88,
+          "description": "Passageiros de um voo reaparecem anos após o desaparecimento e passam a viver visões que apontam para o futuro.",
+          "type": "series",
+          "duration": "4 Temporadas"
+        },
+        {
+          "id": "vampire",
+          "title": "Vikings",
+          "poster": "/images/mini7.jpg",
+          "year": 2020,
+          "rating": "18",
+          "genres": ["Ação", "Drama"],
+          "match": 93,
+          "description": "A saga de Ragnar Lothbrok, um fazendeiro que vira lenda e lidera invasões vikings pela Europa.",
+          "type": "series",
+          "duration": "6 Temporadas"
+        },
+        {
+          "id": "winter",
+          "title": "The 100",
+          "poster": "/images/mini8.jpg",
+          "year": 2020,
+          "rating": "14",
+          "genres": ["Ficção", "Drama"],
+          "match": 87,
+          "description": "Um século após uma guerra nuclear, sobreviventes retornam à Terra e descobrem que nem tudo está perdido.",
+          "type": "series",
+          "duration": "7 Temporadas"
+        },
+        {
+          "id": "origin",
+          "title": "Originals",
+          "poster": "/images/mini9.jpg",
+          "year": 2020,
+          "rating": "16",
+          "genres": ["Fantasia", "Drama"],
+          "match": 90,
+          "description": "Os híbridos de vampiros mais poderosos da história voltam para casa, onde encontram uma guerra sobrenatural.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "darkmatter",
+          "title": "Dark Matter",
+          "poster": "/images/mini10.jpg",
+          "year": 2021,
+          "rating": "16",
+          "genres": ["Ficção", "Suspense"],
+          "match": 91,
+          "description": "Seis estranhos acordam em uma nave espacial sem memória de quem são e de como chegaram lá.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        }
+      ]
+    },
+    {
+      "id": "originals",
+      "title": "Séries originais Netflix",
+      "items": [
+        {
+          "id": "darkmatter-2",
+          "title": "Dark",
+          "poster": "/images/mini4.jpg",
+          "year": 2020,
+          "rating": "16",
+          "genres": ["Ficção", "Mistério"],
+          "match": 95,
+          "description": "Quatro famílias iniciam uma busca desesperada por respostas quando uma criança desaparece.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "squid-game-2",
+          "title": "Squid Game",
+          "poster": "/images/mini5.jpg",
+          "year": 2021,
+          "rating": "16",
+          "genres": ["Suspense", "Drama"],
+          "match": 98,
+          "description": "Centenas de jogadores disputam jogos infantis com prêmios tentadores e apostas mortais.",
+          "type": "series",
+          "duration": "1 Temporada"
+        },
+        {
+          "id": "the-witcher-2",
+          "title": "The Witcher",
+          "poster": "/images/mini2.jpg",
+          "year": 2021,
+          "rating": "16",
+          "genres": ["Fantasia", "Ação"],
+          "match": 92,
+          "description": "Geralt de Rivia luta para encontrar seu lugar em um mundo onde as pessoas são mais perversas que as bestas.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "stranger-things-2",
+          "title": "Stranger Things",
+          "poster": "/images/mini1.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Ficção", "Suspense"],
+          "match": 96,
+          "description": "Uma pequena cidade descobre um mistério envolvendo experimentos secretos e um mundo sobrenatural.",
+          "type": "series",
+          "duration": "4 Temporadas"
+        },
+        {
+          "id": "wednesday-2",
+          "title": "Wednesday",
+          "poster": "/images/mini10.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Fantasia", "Comédia"],
+          "match": 90,
+          "description": "Wednesday Addams investiga uma série de assassinatos sobrenaturais em Nevermore Academy.",
+          "type": "series",
+          "duration": "1 Temporada"
+        },
+        {
+          "id": "black-mirror-2",
+          "title": "Black Mirror",
+          "poster": "/images/mini6.jpg",
+          "year": 2019,
+          "rating": "16",
+          "genres": ["Ficção", "Drama"],
+          "match": 91,
+          "description": "Uma antologia que explora um futuro distorcido onde a tecnologia tem consequências obscuras.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "umbrella-2",
+          "title": "The Umbrella Academy",
+          "poster": "/images/mini7.jpg",
+          "year": 2022,
+          "rating": "14",
+          "genres": ["Ficção", "Ação"],
+          "match": 89,
+          "description": "Irmãos com poderes extraordinários se reencontram para solucionar o mistério da morte do pai.",
+          "type": "series",
+          "duration": "3 Temporadas"
+        },
+        {
+          "id": "la-casa-2",
+          "title": "La Casa de Papel",
+          "poster": "/images/mini3.jpg",
+          "year": 2019,
+          "rating": "16",
+          "genres": ["Ação", "Crime"],
+          "match": 94,
+          "description": "O Professor planeja o maior assalto da história: imprimir dinheiro na Casa da Moeda.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "breaking-2",
+          "title": "Breaking Bad",
+          "poster": "/images/mini8.jpg",
+          "year": 2013,
+          "rating": "18",
+          "genres": ["Crime", "Drama"],
+          "match": 97,
+          "description": "Um professor de química passa a fabricar metanfetamina para garantir o futuro da família.",
+          "type": "series",
+          "duration": "5 Temporadas"
+        },
+        {
+          "id": "peaky-2",
+          "title": "Peaky Blinders",
+          "poster": "/images/mini9.jpg",
+          "year": 2022,
+          "rating": "16",
+          "genres": ["Crime", "Drama"],
+          "match": 93,
+          "description": "Uma gangue de Birmingham comanda a cidade com poder, violência e estilo.",
+          "type": "series",
+          "duration": "6 Temporadas"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+.row {
+  position: relative;
+  margin-top: 24px;
+  z-index: 2;
+}
+
+.title {
+  font-size: clamp(16px, 1.6vw, 20px);
+  font-weight: 700;
+  padding: 0 4%;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.slider {
+  position: relative;
+}
+
+.scroller {
+  display: flex;
+  gap: 8px;
+  padding: 24px 4%;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller > * {
+  scroll-snap-align: start;
+}
+
+.arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 6;
+  width: 48px;
+  border: none;
+  background: rgba(20, 20, 20, 0.6);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.arrow:hover {
+  background: rgba(20, 20, 20, 0.9);
+}
+
+.slider:hover .arrow {
+  opacity: 1;
+}
+
+.arrow svg {
+  width: 28px;
+  height: 28px;
+}
+
+.arrowLeft {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.arrowRight {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+@media (max-width: 700px) {
+  .arrow {
+    display: none;
+  }
+}

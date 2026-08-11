@@ -1,0 +1,33 @@
+# Dev override: hot-reload + porta de debug da API.
+# Carregado automaticamente pelo `docker compose up`.
+# Para produção, use: docker compose -f docker-compose.yml up --build
+services:
+  api:
+    build:
+      context: ./server
+      target: dev
+    command: npm run dev
+    environment:
+      PORT: 4000
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./server/src:/app/src
+      - ./server/tsconfig.json:/app/tsconfig.json
+
+  web:
+    build:
+      context: .
+      target: dev
+    command: npm run dev -- --host 0.0.0.0
+    environment:
+      VITE_API_PROXY_TARGET: http://api:4000
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+      - ./index.html:/app/index.html
+      - ./vite.config.ts:/app/vite.config.ts
+    depends_on:
+      - api

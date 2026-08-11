@@ -1,0 +1,154 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: clamp(460px, 80vh, 720px);
+  overflow: hidden;
+  background: var(--black);
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shadowVertical {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, transparent 60%);
+}
+
+.shadowBottom {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    var(--black) 0%,
+    rgba(20, 20, 20, 0.6) 40%,
+    transparent 100%
+  );
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 700px;
+  padding: 0 4% 18vh;
+  height: 100%;
+}
+
+.title {
+  font-size: clamp(36px, 6vw, 64px);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 8px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.match {
+  color: #46d369;
+  font-weight: 700;
+}
+
+.year {
+  color: var(--text-secondary);
+}
+
+.rating {
+  padding: 0 4px;
+  border: 1px solid var(--text-secondary);
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.duration {
+  color: var(--text-secondary);
+}
+
+.description {
+  font-size: clamp(14px, 1.4vw, 18px);
+  line-height: 1.4;
+  color: var(--text);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 560px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.playBtn,
+.infoBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background 0.2s ease;
+}
+
+.playBtn {
+  background: var(--text);
+  color: #000;
+}
+
+.playBtn:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.infoBtn {
+  background: var(--btn-gray);
+  color: var(--text);
+}
+
+.infoBtn:hover {
+  background: var(--btn-gray-hover);
+}
+
+.playBtn svg,
+.infoBtn svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    height: 460px;
+  }
+
+  .content {
+    padding-bottom: 12vh;
+  }
+
+  .playBtn,
+  .infoBtn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
