@@ -1,0 +1,68 @@
+.card {
+  position: relative;
+  border-radius: 4px;
+  overflow: visible;
+  transition: transform 0.3s ease;
+  flex: 0 0 auto;
+}
+
+.posterWrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #1a1a1a;
+  aspect-ratio: 2 / 3;
+}
+
+.posterWrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.playOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.45);
+  border: none;
+  color: var(--text);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.playOverlay svg {
+  width: 48px;
+  height: 48px;
+}
+
+.card:hover .playOverlay {
+  opacity: 1;
+}
+
+.card:hover {
+  transform: scale(1.12);
+  z-index: 5;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.withRank .posterWrap {
+  margin-left: calc(9rem * 0.55);
+}
+
+.rank {
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  z-index: 0;
+  font-family: var(--logo-font);
+  font-size: 9rem;
+  line-height: 0.8;
+  color: var(--black);
+  -webkit-text-stroke: 2px #595959;
+  user-select: none;
+  pointer-events: none;
+}
